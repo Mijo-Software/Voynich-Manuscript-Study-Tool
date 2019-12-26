@@ -88,12 +88,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AssemblyInfo.cs" />
     <Compile Include="MainForm.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="MainForm.Designer.cs">
       <DependentUpon>MainForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="Office2007ColorTable.cs" />
+    <Compile Include="Office2007Helpers.cs" />
+    <Compile Include="Office2007Renderer.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="MainForm.resx">
@@ -130,6 +134,90 @@
     <Analyzer Include="..\packages\Microsoft.NetCore.Analyzers.2.9.8\analyzers\dotnet\cs\Microsoft.NetCore.CSharp.Analyzers.dll" />
     <Analyzer Include="..\packages\Microsoft.NetFramework.Analyzers.2.9.8\analyzers\dotnet\cs\Microsoft.NetFramework.Analyzers.dll" />
     <Analyzer Include="..\packages\Microsoft.NetFramework.Analyzers.2.9.8\analyzers\dotnet\cs\Microsoft.NetFramework.CSharp.Analyzers.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fatcow_document_page_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fatcow_document_page_last_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fatcow_document_page_next_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fatcow_document_page_previous_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fugue_document-page_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fugue_document-page-last_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fugue_document-page-next_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fugue_document-page-previous_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fatcow_layout_three_mix_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fatcow_palette_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fatcow_wrench_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fugue_layout-three-mix_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fugue_magnifier-zoom-in_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fugue_magnifier-zoom-out_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fugue_palette_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fugue_wrench_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fatcow_magnifier_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fugue_magnifier_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fatcow_door_in_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fugue_door-in_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fatcow_categories_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fatcow_disk_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fugue_categories_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fugue_disk_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fatcow_information_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fugue_information_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fatcow_magnifier_zoom_in_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fatcow_magnifier_zoom_out_16.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
